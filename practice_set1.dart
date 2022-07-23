@@ -14,6 +14,8 @@ main() {
   int a = 10;
   int age = 21;
   double weight = 65.0;
+  var n1 = 10;
+  var n2 = 5;
   // Strings
   var name = "uzair";
   // Boolean
@@ -37,4 +39,14 @@ main() {
   //ternary operator
   var result = age > 20 ? "true" : "false";
   print(result);
+
+//Assignment operators
+  print("addition = ${n1 + n2}");
+  print("subtraction = ${n1 - n2}");
+  print("multiplication = ${n1 * n2}");
+  print("division = ${n1 / n2}");
+  print("modulus = ${n1 % n2}");
+//Dart Unary Operators (post and pre)
+  // print(a++);
+  print(++a);
 }
